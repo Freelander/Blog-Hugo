@@ -2,7 +2,7 @@
 title: "通俗易懂了解 Android 设计模式 - 观察者模式"
 date: 2021-08-07T10:59:04+08:00
 tags: [Android,设计模式]
-categories: Android
+categories: 设计模式
 draft: false
 ---
 
