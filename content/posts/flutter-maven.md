@@ -74,7 +74,7 @@ mvn deploy:deploy-file \
 -DpomFile="$file_path.pom" \
 -DgeneratePom=true \
 -Dfile="$file_path.aar" \
--Durl="https://oss.bgapps.cn/repository/banggood-release" \
+-Durl="https://oss.gojun.me/repository/flutter-release" \
 -DrepositoryId="com.chicdeals.flutter" \
 -DgroupId="com.chicdeals.flutter" \
 -Dpackaging=aar
@@ -159,7 +159,7 @@ mvn --debug deploy:deploy-file \
 -DpomFile="build/host/outputs/repo/com/chicdeals/flutter/flutter_release/1.0/flutter_release-1.0.pom" \
 -DgeneratePom=true \
 -Dfile="build/host/outputs/repo/com/chicdeals/flutter/flutter_release/1.0/flutter_release-1.0.aar" \
--Durl="https://oss.bgapps.cn/repository/banggood-release" \
+-Durl="https://oss.gojun.me/repository/flutter-release" \
 -DrepositoryId="com.chicdeals.flutter" \
 -DgroupId="com.chicdeals.flutter" \
 -Dpackaging=aar
