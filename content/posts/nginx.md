@@ -1,7 +1,7 @@
 ---
 title: "Mac 上 Nginx 的使用及入门"
 date: 2021-10-12T19:43:01+08:00
-draft: true
+draft: false
 tags: [Nginx]
 ---
 
