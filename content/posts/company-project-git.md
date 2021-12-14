@@ -38,30 +38,32 @@ git-flow 最先来源于 Vincent Driessen 一篇名为[“一种成功的Git分�
 
 ### 需求开发分支命名规范
 
-> 版本号_开发人名称首字母_需求简述
+> 版本号_开发人姓名首字母_需求简述
 
-例如：feature/6.15.0_hgj_优化AfterPay介绍页面
+例如：feature/7.33.0_hgj_BG类目页Popular等排序页面rmmds梳理
 
-若使用 git-flow 工具命令创建 
+推荐使用 git flow 命令创建 
 
 ```bash
-git flow feature start 6.15.0_hgj_优化AfterPay介绍页面
+git flow feature start 7.33.0_hgj_BG类目页Popular等排序页面rmmds梳理
 ```
 
 ### 发版分支命名规范
 
 > 发版的版本号
 
-例如：release/6.15.0
+例如：release/7.33.0
 
-若使用 git-flow 工具命令创建 
+推荐使用 git flow 命令创建 
 
 ```bash
-git flow release start 6.15.0
+git flow release start 7.33.0
 ```
 ### 效果展示
 
-![Local Image](/images/2021/07/company-project-git-02.png)
+规范前 | 规范后
+------|------
+![Local Image](/images/2021/07/company-project-git-03.png) | ![Local Image](/images/2021/07/company-project-git-02.png)
 
 ## Git Commit 规范
 
