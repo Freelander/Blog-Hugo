@@ -92,7 +92,7 @@ https://api.slack.com/apps
 
 ### Token 信息保存到环境变量中
 
-为了安全将脚本需要用到的 Token 信息保存到环境变量当中，若不考虑安全性可直接脚本使用，以下示例适用于 Mac 系统；
+为了安全将脚本需要用到的 Token 信息保存到环境变量当中，若不考虑安全性可直接在脚本中使用，以下示例适用于 Mac 系统；
 
 1、编写环境变量文件；
 ```shell
@@ -113,6 +113,7 @@ export SLACK_APP_TOKEN=xapp-1-xxxx-xxxxxx
 source ~/.bash_profile
 ```
 
+注意：部分系统使用的环境变量在 **.zshrc** 文件，同样的原理将 Token 信息添加到  **.zshrc** 文件即可。
 ### 编写脚本
 
 上面一切到准备好了之后，可以开始编写脚本啦！
@@ -134,7 +135,7 @@ app.message('hello', async ({ message, say }) => {
     await say(`Hey there <@${message.user}>!`);
 });
 
-// 监听渠道接收到的信息
+// 监听频道接收到的信息
 app.event('message', async ({ event }) => {
     // fired when `app_home_opened` event is received
     // do work
@@ -158,7 +159,7 @@ app.event('message', async ({ event }) => {
 
 ![image](/images/2022/01/firebase_slack_17.png)
 
-3、发送 hello 信息
+3、发送 hello 信息。
 
 ![image](/images/2022/01/firebase_slack_18.png)
 
